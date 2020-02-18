@@ -50,6 +50,7 @@ python -m pip install C:\Kivy-1.9.1.dev-cp27-none-win_amd64.whl
 
 
 ## Environment
+    py -m pip install --upgrade pyinstaller
     py -m pip install --upgrade pip wheel setuptools
     py -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew --extra-index-url https://kivy.org/downloads/packages/simple/
     py -m pip install kivy
@@ -59,7 +60,12 @@ python -m pip install C:\Kivy-1.9.1.dev-cp27-none-win_amd64.whl
         
     py -m pip install Pillow
     py -m pip install image
+    py -m pip install opencv-python
+    
+# Check version
     
     py -m pip freeze | select-string cython
     
-    py -m pip install --upgrade pyinstaller
+
+    
+    

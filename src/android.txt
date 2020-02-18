@@ -1,3 +1,3 @@
-title=Touchtracer
-author=Kivy team
+title=OnePy
+author=Tom
 orientation=landscape

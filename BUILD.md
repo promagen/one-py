@@ -21,4 +21,4 @@ with icon
 
 one file    
 
-    py -O -m PyInstaller --onefile --nowindow onepy.spec -y
+    py -O -m PyInstaller --onefile onepy.spec -y

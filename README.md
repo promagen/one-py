@@ -58,6 +58,7 @@ python -m pip install C:\Kivy-1.9.1.dev-cp27-none-win_amd64.whl
 
 # Modules
         
+    py -m pip install bbfreeze
     py -m pip install Pillow
     py -m pip install image
     py -m pip install opencv-python
@@ -66,6 +67,14 @@ python -m pip install C:\Kivy-1.9.1.dev-cp27-none-win_amd64.whl
     
     py -m pip freeze | select-string cython
     
+# python exe
+http://winpython.github.io/    
 
-    
-    
+pyInstaller 
+	+ One-file mode
+	
+cx_Freeze 
+    Zipfile import
+
+py2app
+ 	Zipfile import    
